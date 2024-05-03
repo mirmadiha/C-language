@@ -2,16 +2,15 @@
 #include<stdio.h>
 int main(){
     int i=0;
-    int j=10;
     printf("\nDisplay numbers from 0 - 10:");
-    while (i<=j)
+    while (i<=10)
     {
         printf("\n%d",i);
         i++;
     }
-    j=10;
+    int j=10;
     printf("\nDisplay numbers from 10 - 0: ");
-    while (j>=i)
+    while (j>=0)
     {
         printf("\n%d",j);
         j--;
