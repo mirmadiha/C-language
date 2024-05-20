@@ -27,9 +27,9 @@ int main(){
             }
         }
     }
-    printf("\nElements of arrays sorted in descending order are:");
+    printf("\nElements of arrays sorted in descending order are:\n");
     for(int i=0;i<n;i++){
-        printf("%d",&arr[i]);
+        printf("\n%d\n",arr[i]);
     }
     printf("\n\n");
     return 0;
