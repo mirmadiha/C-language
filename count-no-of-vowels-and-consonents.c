@@ -7,7 +7,7 @@ int main()
     int con=0;
     printf("\nEnter a string= ");
     gets(str);
-    for(int i=0;i!='\0';i++){
+    for(int i=0;str[i]!='\0';i++){
         if(str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u'){
             vow++;
         }
